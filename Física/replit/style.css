@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: #372772;
+    color: white;
+    text-align: center;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    background-color: #3a2449;
+}
+
+img {
+    max-width: 200px;
+
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: #c89fa3;
+    border-radius: 16px;
+    padding: 10px;
+    border-bottom: 5px solid #a67f8e;
+}
+
+input[type="number"] {
+    border: none;
+    border-bottom: 2px solid #a67f8e;
+    background-color: #ededed;
+    border-radius: 16px;
+    width: 30px;
+    height: 25px;
+}

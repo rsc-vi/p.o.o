@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>simulador</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+        * {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div>
+        <h2>Simulador</h2>
+        <label for="inPressao">Pressão (atm):</label>
+        <input type="number" id="inPressao">
+        <label for="inVolume">Volume (L):</label>
+        <input type="number" id="inVolume">
+        <label for="inMols">Mols (mol):</label>
+        <input type="number" id="inMols">
+        <label for="inTemperatura">Temperatura (K):</label>
+        <input type="number" id="inTemperatura">
+        <br>
+        <button id="btnCalcularPressao">Calcular Pressão</button>
+        <button id="btnCalcularVolume">Calcular Volume</button>
+        <button id="btnCalcularMols">Calcular Mols</button>
+        <button id="btnCalcularTemperatura">Calcular
+
+            Temperatura</button>
+        <h3>Resultados:</h3>
+        <p> Pressão: <span id="outPressao"></span> (atm)</p>
+        <p> Volume: <span id="outVolume"></span> (L)</p>
+        <p> Mols: <span id="outMols"></span> (mol)</p>
+        <p> Temperatura: <span id="outTemperatura"></span> (K)</p>
+        <p id="outImg"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

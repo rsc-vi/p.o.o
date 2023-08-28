@@ -1,36 +1,68 @@
 body {
-    background-color: rgb(161, 110, 110);
+    background-color: #000000;
+}
+.card{
+    width: 720px;
 
 }
-
-.card {
-
-}
-
-
 
 .cabecalho {
     display: flex;
-    background-color: hwb(0 16% 81%);
     justify-content: space-between;
     padding: 20px;
-
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: #303030;
 }
 
-.cabecalho .turma{
-    color: green;
+.cabecalho .turma {
+    color: #75d063;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    
 }
 
-.cabecalho .nome{
-    color: aliceblue;
+.cabecalho .nome {
+    color: #ffffff;
     font-size: 32px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .cabecalho .logo {
     height: 140px;
-    font-size: 20px;
 }
 
-.conteudo .foto{
-    width: 240px;
+.conteudo {
+    display: flex;
+    background-color: #eaeaea;
+    justify-content: space-around;
+    
+    padding: 24px; /* espaço  */
+}
+
+.conteudo .foto {
+    border: solid 1px;
+    width: 120px;
+}
+.conteudo .info{
+    width: 400px;
+    
+    
+}
+.info .label{
+    color: rgb(84, 192, 192);
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    
+}
+.info .valor{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    font-weight: 650;
+    color: #161515f1;
+
+    border-bottom:1px solid rgb(84, 192, 192) ;
+
 }

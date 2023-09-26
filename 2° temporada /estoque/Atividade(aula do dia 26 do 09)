@@ -1,0 +1,5 @@
+1) Adicionar o atributo quantidade na classe Produto
+2) Na classe Estoque, adicionar o método calcularValorTotal().
+  Esse método deverá calcular todo o valor do estoque e imprimi-lo no console.
+------------------------------------------------------------------------------
+Enviar no Sigaa até sexta-feira, antes da aula.

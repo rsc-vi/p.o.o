@@ -1,17 +1,21 @@
-let inputProduto = document.getElementById("iptProduto");
+let inputdescricaoProduto = document.getElementById("iptdescricaoProduto");
 let inputPrecoUnitario = document.getElementById("iptPrecoUnitario");
 let btCadastrar = document.getElementById("btCadastrar");
+let divcontainerDeCards = document.getElementById("containerDeCards")
 
 let estoque = new Estoque();
 
-quandoClicarNoBotaoCadastrar.addEventListener('click', quandoClicarNoBotaoCadastrar);
+btCadastrar.addEventListener('click', quandoClicarNoBotaoCadastrar);
 
 
 function quandoClicarNoBotaoCadastrar(){
     let produto = new Produto(
-        inputProduto.value,
-        inputPrecoUnitario,
-        btCadastrar
+        inputdescricaoProduto.value,
+        inputPrecoUnitario.value,
     );
-    estoque.adicionarProduto(produto);
+
+    estoque.adicionarProduto(produto)
+    
+    desenharCards(estoque, divcontainerDeCards)
 };
+

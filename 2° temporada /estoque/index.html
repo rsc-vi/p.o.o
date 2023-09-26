@@ -8,16 +8,25 @@
 </head>
 
 <body>
-    <div><label for="">Produto</div>
-    <input id="iptProduto" type="text">
 
-    <div><label for="">Preço Unitario:</div>
-        <input id="iptPrecoUnitario" type="text">
-    
+    <form action="#">
+        <div><label for="iptdescricaoProduto">Descrição do produto:
+                <input id="iptdescricaoProduto">
+        </div>
+        <div>
+            <label for="iptPrecoUnitario">Preço Unitario:
+                <input id="iptPrecoUnitario">
+                <button id="btCadastrar">Cadastrar</button>
+        </div>
 
-   <button id="btCadastrar">Cadastrar</button>
+    </form>
 
-    <div id="containerDeCards"></div>
+    <div id="containerDeCards">
+        
+    </div>
+
+
+
 
 
     <script src="classes.js"></script>

@@ -11,4 +11,3 @@ function desenharCards(estoque, divcontainerDeCards) {
         `
     }
 }
-//////esta com erro

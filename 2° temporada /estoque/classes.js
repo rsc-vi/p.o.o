@@ -1,7 +1,8 @@
 class Produto{
-    constructor(){
-        this.descricao,
-        this.precoUnitario
+    constructor(descricao, precoUnitario, quantidade){
+        this.descricao = descricao;
+        this.precoUnitario = precoUnitario;
+        this.quantidade = quantidade;
     }
 }
 
@@ -10,6 +11,11 @@ class Estoque{
         this.listaDeProdutos
     }
     adicionarProduto(produto){
-
+        this.listaDeProdutos.push(produto);
+    }
+    calcularValorTotal() {
+    let ValorTotal = 0
+    ValorTotal += this.listaDeProdutos[i]*this.listaDeProdutos[i].quantidade
     }
 }
+console.log(ValorTotal);
